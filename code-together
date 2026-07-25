@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Together – Rencontres sincères</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 40px; background: #FDF5E6; }
+        h1 { color: #00B4D8; }
+        .box { background: white; padding: 30px; border-radius: 12px; max-width: 500px; margin: 20px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        button { padding: 12px 24px; background: #00B4D8; color: white; border: none; border-radius: 8px; font-size: 18px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🌴 Together</h1>
+    <div class="box">
+        <p><strong>Le site est prêt à être déployé.</strong></p>
+        <p>Nous avons tout construit ensemble :</p>
+        <ul style="text-align: left;">
+            <li>✅ 12 langues</li>
+            <li>✅ Géolocalisation</li>
+            <li>✅ Handicap & inclusion</li>
+            <li>✅ Lives régionaux</li>
+            <li>✅ Système d'administration</li>
+        </ul>
+        <button onclick="alert('Félicitations ! Together est en ligne.')">Voir le site</button>
+    </div>
+</body>
+</html>
